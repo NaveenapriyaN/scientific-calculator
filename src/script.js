@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
         .replace('e','Math.E')
         .replace('log','Math.log10')
         .replace('√','Math.sqrt');
+        
         const result =eval(convertedValue);
         currentValue=result.toString();
         display.value=currentValue;
